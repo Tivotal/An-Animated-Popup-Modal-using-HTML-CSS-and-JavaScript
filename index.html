@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Popup Modal</title>
+
+    <!--font awesome(for icons)-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section>
+      <div class="profile">
+        <div class="image">
+          <img src="img.jpeg" alt="" />
+        </div>
+        <span class="name">Preethi Arora</span>
+        <span class="job">Certified Web Developer</span>
+        <div class="button">
+          <i class="fas fa-envelope"></i>
+          <button>Hire Me</button>
+        </div>
+      </div>
+
+      <div class="outer">
+        <div class="popup">
+          <i class="fas fa-times close"></i>
+
+          <div class="content">
+            <img src="img.jpeg" alt="" />
+            <div class="text">
+              <span class="name">Preethi Arora</span>
+              <span class="job">Certified Web Developer</span>
+            </div>
+          </div>
+
+          <textarea placeholder="Enter your message"></textarea>
+
+          <div class="button">
+            <button class="cancel">Cancel</button>
+            <button class="send">Send</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
